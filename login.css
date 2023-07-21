@@ -1,0 +1,28 @@
+form{
+    width: 59%;
+    left: 250px;
+    padding: 40px;
+    margin-left: 20px;
+    min-height: 100vh;
+    position: relative;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+/* form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+} */
