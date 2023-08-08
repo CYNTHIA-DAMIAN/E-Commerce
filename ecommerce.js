@@ -3,13 +3,13 @@ let navbar = document.querySelector(".navbar");
 
 //Adding aa functionality for my hamburger
 // this onlick works on the menu and also the navbar to be responsive when clicked on.
-menu.onclick =() => {
-    menu.classList.toggle("bx-x");
-    navbar.classList.toggle("active");
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 }
 
 window.onscroll = () => {
-    menu.classList.toggle("bx-x");
+    menu.classList.remove('bx-x');
     navbar.classList.remove("active");
 }
 

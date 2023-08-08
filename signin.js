@@ -30,7 +30,7 @@ function store() {
     } else {
          localStorage.setItem('name', name.value);
         localStorage.setItem('pw', pw.value);
-            window.open('ecommerce.html');
+            window.open('login.html');
         //
         // location="ecommerce.html";
     }

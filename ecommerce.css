@@ -95,7 +95,7 @@ width: 40px;
     position: relative;
     background: url(images/rangerover1.jpg);
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center;
     background-size: cover;
     display: grid;
     align-items: center;
@@ -410,7 +410,7 @@ width: 40px;
         transition: 0.2s ease;
         text-align: left;
     }
-    .navbar .active{
+    .navbar.active{
         top: 100%;
     }
     .navbar a{
