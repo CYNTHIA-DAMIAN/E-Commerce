@@ -8,7 +8,7 @@ function check() {
     var userRemember = document.getElementById("rememberMe");
 
     if (userName.value == storedName && userPw.value == storedPw) {
-        window.open('index.html');
+        window.open('ecommerce.html');
     } else {
         alert('Error on login');
     }
